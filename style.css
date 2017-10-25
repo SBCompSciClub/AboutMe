@@ -4,7 +4,7 @@ body {
     font:normal 12px/1.6em Verdana, Geneva, sans-serif;
 	margin:0;
 	padding:0;
-	background:#8EAEBD;
+	background:#8EAEBD;/*FF7F66*/
 }
 
 p {
@@ -17,7 +17,7 @@ p {
 	width: 93%;
 	border-left:1px solid #f0e9eb;
 	border-right:1px solid #f0e9eb;
-	background:#FEDCD2;
+	background:#7ECEFD;
 }
 
 #header {
@@ -58,7 +58,7 @@ p {
 }
 
 #footer {
-	background:#FFE8A0;
+	background:#FFF6E5;
 	border-top:1px solid #f0e9eb;
 	padding:10px 15px;
 	clear:both;
@@ -78,6 +78,11 @@ a:hover {
 	background:none;
 }
 
+.titlel {
+    font-size: 140%;
+    color: #ef2fff
+}
+
 h1 {
 	color:#000000;
 	margin:0 0 10px;
@@ -87,7 +92,7 @@ h1 {
 }
 
 h2 {
-	color:#DF744A;
+	color:#2185C5;
 	margin:20px 0 10px;
 	padding-bottom:10px;
 	font:normal 17px Georgia, serif;
@@ -95,7 +100,7 @@ h2 {
 }
 
 h3 {
-	color:#DF744A;
+	color:#2185C5;
 	margin:10px 0;
 	padding-bottom:10px;
 	font:bold 14px Arial, Helvetica, sans-serif;
@@ -109,16 +114,16 @@ ul {
 }
 
 .box {
-	background:#FFE8A0;
-	border:1px solid #FFE8A0;
+	background:#FFF6E5;
+	border:1px solid #FFF6E5;
 	padding:15px;
 }
 
 #nav {
-	background:#DF744A;
+	background:#2185C5;
 	padding:10px 20px;
 	text-align:right;
-	color:#f6dde3;
+	color:#7ECEFD;
 }
 
 #nav a {
@@ -127,16 +132,16 @@ ul {
 
 #nav a:visited, #nav a:link {
 	text-decoration:none;
-	color:#f6dde3;
+	color:#7ECEFD;
 }
 
 #nav a:hover {
 	text-decoration:underline;
-	color:#f6dde3;
+	color:#fd7e7e;
 }
 
 #logo {
 	margin-bottom:20px;
 	font:normal 18px Georgia, serif;
-	color:#fa7393;
+	color:#fd7e7e;
 }
